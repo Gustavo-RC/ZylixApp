@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arvore.cs">
+    <Compile Include="Arquivo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Arvore.Designer.cs">
-      <DependentUpon>Arvore.cs</DependentUpon>
+    <Compile Include="Arquivo.Designer.cs">
+      <DependentUpon>Arquivo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Arvore.resx">
-      <DependentUpon>Arvore.cs</DependentUpon>
+    <EmbeddedResource Include="Arquivo.resx">
+      <DependentUpon>Arquivo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

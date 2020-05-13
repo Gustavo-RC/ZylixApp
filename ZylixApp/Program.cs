@@ -16,7 +16,7 @@ namespace ZylixApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Arvore());
+            Application.Run(new Arquivo());
         }
     }
 }
