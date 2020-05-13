@@ -52,10 +52,19 @@
     <Compile Include="Arquivo.Designer.cs">
       <DependentUpon>Arquivo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Janela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Janela.Designer.cs">
+      <DependentUpon>Janela.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Arquivo.resx">
       <DependentUpon>Arquivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Janela.resx">
+      <DependentUpon>Janela.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

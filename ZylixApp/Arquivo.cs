@@ -75,7 +75,7 @@ namespace ZylixApp
 
         private void treeView1_AfterSelect_1(object sender, TreeViewEventArgs e)
         {
-
+            
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -120,6 +120,7 @@ namespace ZylixApp
 
         private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Abre arquivo para edição
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "Arquivo texto | *.txt";
             ofd.ShowDialog();
@@ -134,9 +135,27 @@ namespace ZylixApp
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(string.Format("Não foi possivel abrir. Erro {0}", ex.Message), "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    //Exibe o erro
+                    MessageBox.Show(string.Format("Não foi possivel abrir", MessageBoxButtons.OK, MessageBoxIcon.Error));
                 }
             }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void janelaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Chamada de novo Form
+            Janela j = new Janela();
+            j.ShowDialog();
         }
     }
 }
